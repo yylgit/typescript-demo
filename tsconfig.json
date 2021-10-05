@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "experimentalDecorators": true,
+      "sourceMap": false,
+      // "module": "amd",
+      "allowJs": true,  
+      "checkJs": true,
+      "declaration": false, 
+      // "outFile": "./dist/1.js", 
+      // "outDir": "./dist2",    
+      "rootDir": "./",  
+      "strict": true,
+      "noImplicitAny": true, 
+      "alwaysStrict": true, 
+      "noImplicitThis": true,
+      "noUnusedLocals": true
+      
+  },
+  "include": [
+    "entry.ts"
+  ]
+}
