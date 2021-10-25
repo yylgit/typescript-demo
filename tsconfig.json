@@ -2,22 +2,23 @@
   "compilerOptions": {
       "target": "es5",
       "experimentalDecorators": true,
+      "emitDecoratorMetadata": false,
       "sourceMap": false,
       // "module": "amd",
-      "allowJs": true,  
-      "checkJs": true,
+      "allowJs": false,  
+      "checkJs": false,
       "declaration": true, 
       // "outFile": "./dist/1.js", 
-      "outDir": "./dist",    
+      // "outDir": "./dist",    
       "rootDir": "./",  
       "strict": true,
+      // "module": "commonjs",
       "noImplicitAny": true, 
       "alwaysStrict": true, 
       "noImplicitThis": true,
-      "noUnusedLocals": true
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
       
   },
-  "include": [
-    "entry.ts"
-  ]
+  "include": ["./src/namespace.ts"],
 }

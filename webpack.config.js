@@ -1,7 +1,7 @@
 module.exports = {
   mode: "development",
   // devtool: "inine-cheap-module-source-map",
-  entry: "./entry.ts",
+  entry: "./src/entry.ts",
   output: {
     filename: "build/bundle.js"
   },
